@@ -27,7 +27,7 @@ public:
             temp = temp->next;
         }
         temp->next = newnode;
-        temp = newnode;
+        // temp = newnode;
     }
     void display(){
         Node* temp = head;
